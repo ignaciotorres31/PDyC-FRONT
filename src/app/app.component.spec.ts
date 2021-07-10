@@ -1,4 +1,5 @@
 import { TestBed } from '@angular/core/testing';
+import { title } from 'process';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
@@ -19,7 +20,7 @@ describe('AppComponent', () => {
   it(`should have as title 'mymusic-cli'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('mymusic-cli');
+    expect(title).toEqual('mymusic-cli');
   });
 
   it('should render title', () => {
