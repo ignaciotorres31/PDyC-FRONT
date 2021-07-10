@@ -11,7 +11,8 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 import { HomeComponent } from './home';
-import { LoginComponent } from './login';
+import { LoginComponent } from './login/login.component';
+
 
 @NgModule({
     imports: [

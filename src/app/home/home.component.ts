@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { first } from 'rxjs/operators';
+import { Playlist } from '../_models';
+import { PlaylistService } from '../_services';
 
-import { Playlist } from '@app/_models';
-import { PlaylistService, AuthenticationService } from '@app/_services';
 
 @Component({ templateUrl: 'home.component.html' })
 export class HomeComponent {
