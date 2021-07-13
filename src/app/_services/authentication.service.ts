@@ -16,7 +16,7 @@ currentUser={};
 
 
     login(email: string, password: string) {
-        return this.http.post<any>(environment.apiUrl + '/auth', { email, password },{observe: 'response'})
+        return this.http.post<any>(environment.apiUrl + '/login', { email, password },{observe: 'response'})
             .pipe(map(res => {
                
                 // login successful if there's a jwt token in the response

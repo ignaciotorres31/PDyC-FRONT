@@ -9,6 +9,6 @@ export class PlaylistService {
     constructor(private http: HttpClient) { }
 
     getAll() {
-        return this.http.get<Playlist[]>(`${environment.apiUrl}/playlists`);
+        return this.http.get<Playlist[]>(`${environment.apiUrl}/playlists/list`);
     }
 }
