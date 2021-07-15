@@ -3,11 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-9-jwt-authentication-example": {
+    "angular-10-jwt-authentication-example": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "less"
+          "style": "css"
         }
       },
       "root": "",
@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-10-jwt-authentication-example"
+    }
+  },
+  "defaultProject": "angular-10-jwt-authentication-example",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -3,8 +3,8 @@
     <div class="card-body">
         <h6>Users from secure api end point</h6>
         <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
-        <ul *ngIf="users">
-            <li *ngFor="let user of users">{{user.firstName}} {{user.lastName}}</li>
+        <ul *ngIf="playlists">
+            <li *ngFor="let playlist of playlists">{{playlist.name}}</li>
         </ul>
     </div>
 </div>
